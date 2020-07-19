@@ -5,4 +5,4 @@ with urlopen("https://swapi.dev/api/people/1/") as f:
 data = json.loads(source)
 code = json.dumps(data, indent = 2)
 with open("file.json","w") as f:
-    f.write(html)
+    f.write(code)
